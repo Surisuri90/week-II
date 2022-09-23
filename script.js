@@ -1,9 +1,12 @@
-   
+
     <button type="button"
     onclick="document.getElementById('demo').innerHTML = Date()">
     Click me to display Date and Time.</button>
-    <botton type="button1"
-    onclick="document.getElementById('demo').innerHTML = DATE()">
     
+    <button type="button1" 
+    onclick="myFunction()">Click Me!</button>
     <p id="demo"></p>
-    </html>
+    <script>
+    function myFunction() { 
+      document.getElementById("demo").innerHTML = "HELLO MY FRIEND!";
+    }
