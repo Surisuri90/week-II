@@ -1,0 +1,49 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>waves!</title>
+
+    <link rel="stylesheet" href="style.css" />
+<!--    <link rel="stylesheet" href="https://bloop.info/css/style.css" type="text/css" />-->
+<script src="script.js"></script>
+    <style type="text/css">
+        * { font-family: Arial, sans-serif; }
+        html, body { min-height:100%; min-width:100%; }
+        body { background:#F2EDD7; }
+        #box { padding:20px; margin:30px auto; max-width:70%; border:1px solid #72BDE1; text-align:center; border-radius:10px; }
+        #fatBox { padding:30px; margin:30px auto; max-width:80%; border:2px solid #A2C4F7; text-align:center; border-radius:10px; }
+        a { color:#192C95; }
+        p { margin-top:20px; }
+        .blue { background-color:#9E9E9E; color:#6F97EC; }
+        .red { background:#673AB7; color:#9C27B0; }
+        .yellow { background:#6C5F3D; color:#D989BC; }
+        .whiteText { color:#F6BBE6; }
+        .blackText { color:#000; }
+        #ocra { background: #8EACBB; background: -webkit-linear-gradient(to right, #8BC34A, #795548); background: linear-gradient(to right, #BDCC4F, #607D8B); }
+    </style>
+</head>
+
+<body>
+
+    <div id="box" class="#97B350">
+     <img style="width:50%;border:1px solid #F4EFEF;" src="https://cdn.dayspedia.com/img/timezonemap.png" />
+    <h1>MY FIRST JS</h1>
+          
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+    <p></p>
+    
+    <button type="button1" 
+    onclick="myFunction()">Click Me!</button>
+    <p id="demo">This is a Suprise.</p>
+    <script>
+    function myFunction() { 
+      document.getElementById("demo").innerHTML = "Hello MY FRIEND!";
+    }
+    </script>
+    
+    
+    <p id="demo"></p>
+    
+    </html>
